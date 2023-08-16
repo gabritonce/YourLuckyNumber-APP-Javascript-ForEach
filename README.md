@@ -1,0 +1,1 @@
+# YourLuckyNumber-Javascript-ForEach
