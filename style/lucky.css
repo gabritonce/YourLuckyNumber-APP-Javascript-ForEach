@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #0d3b66;
+    font-family: 'Merienda', cursive;
+}
+
+#container {
+    text-align: center;
+    margin-top: 230px;
+    margin-bottom: 230px;
+}
+
+button {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #f4d35e;
+    color: #1a67a5;
+    border-color: #1a67a5 ;
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+   
+}
+button:active {
+    background-color: #f6cb2e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  button:hover {background-color:  #f9c60f}
+p {
+    margin-top: 50px;
+    color: #f4d35e;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #f4d35e;
+}
+
+a:hover {
+    color: #f4d35e;
+}
+
+
+/* NUMERI PAGE */
+
+.navbar {
+    background-color: #1a67a5;
+    color: #f4d35e;
+    font-size: 20px;
+}
+
+
+.inputDiv {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+input {
+    color: #f4d35e;
+    background-color: #1a67a5;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+input::placeholder {
+    color: #f4d35e;
+}
+
+h1 {
+    color: #f4d35e;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+
+}
+
+h2 {
+    text-align: center;
+    color: #f4d35e;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    margin: 20px;
+    background-color: #1a66a56b;
+    color: #f4d35e;
+    border-color: #f4d35e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+
+
+.card-title {
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card-subtitle {
+    font-size: 20px;
+}
